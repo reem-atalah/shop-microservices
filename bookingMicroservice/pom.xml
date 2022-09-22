@@ -51,6 +51,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency> <!-- to get its config from config-server -->
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-client</artifactId>
+			<version>3.1.4</version>
+		</dependency>
+		<dependency> <!-- to get its config when it's up -->
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+			<version>3.1.4</version>
+		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
