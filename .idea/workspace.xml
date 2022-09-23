@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48196f13-b15a-4480-a29e-d9443cbdce17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bookingMicroservice/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productMicroservice/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingMicroservice/bookingMicroservice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productMicroservice/src/main/java/com/example/productMicroservice/controller/categoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingMicroservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bookingMicroservice/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookingMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookingMicroservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookingMicroservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookingMicroservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingMicroservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingMicroservice/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookingMicroservice/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/central-configuration" beforeDir="false" afterPath="$PROJECT_DIR$/central-configuration" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productMicroservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productMicroservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productMicroservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productMicroservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productMicroservice/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productMicroservice/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
