@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 //for refresh scope
 @RestController
-@RequestMapping("/api/categories")
+@RequestMapping("/api/products/categories")
 @Getter
 @Setter
 @RefreshScope //this will refresh all the @Value data in this bean
