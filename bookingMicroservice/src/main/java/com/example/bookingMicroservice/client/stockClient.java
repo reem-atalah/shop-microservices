@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 // exact name written in bootstrap.properties in stock-service
 // it's called from eureka server
-@FeignClient(name = "stock-service")
+//@FeignClient(name = "stock-service")
 public interface stockClient {
 
 //     call the same get request in controller of stock service

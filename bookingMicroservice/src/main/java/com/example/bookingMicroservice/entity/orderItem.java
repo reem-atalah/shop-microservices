@@ -6,7 +6,6 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.security.PrivateKey;
 
 @Entity
 @Table(name = "order_item")
