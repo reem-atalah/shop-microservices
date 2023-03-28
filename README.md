@@ -35,7 +35,7 @@ vault kv get secret/bookingMicroservice
 
 - - 1st: **RefreshScope** where we need to send the request for actuator refresh scope which is done for one microservice only then send the request and each microservice must be run manually. This isn't practical
 
-- - 2nd: **message broker** using **busrefresh** where it runs once and notify all microservices. For message broker, I ran **rabbitMQ** docker image.
+- - 2nd: **message broker** using **busrefresh** where it runs once and notify all the interested microservices. For message broker, I ran **rabbitMQ** docker image to implement the "event-driven" communication pattern, where microservices communicate with each other by publishing events to RabbitMQ, which are then consumed by other microservices. This pattern allows microservices to be loosely coupled and scalable, as each microservice only needs to know about the events that it is interested in, rather than having to maintain direct connections to all other microservices in the system.
 
 - I used **FeignClient** as a way for API calls
 - In order not letting APIs calls are done even if the other API isn't available, I used **Circuit Breaker: resilience4j**
